@@ -6,12 +6,3 @@ transform1:
     - snips_test.txt
   read_dir: snips_data
   save_dir: ../../data
-  
-transform2:
-  transform_func: create_fragment_detection_tsv
-  read_file_names:
-    - intent_snips_train.tsv
-    - intent_snips_dev.tsv
-    - intent_snips_test.tsv
-  read_dir: ../../data
-  save_dir: ../../data
